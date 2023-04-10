@@ -1,0 +1,4 @@
+[server]
+ip = "domain name or ip either is fine"
+port = "" # it needs to be string because i can't code
+password = ""

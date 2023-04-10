@@ -1,0 +1,12 @@
+[package]
+name = "rust-rcon"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ctrlc = "3.2.5"
+rcon = {version="0.6.0", features=["rt-tokio"]}
+tokio = {version="1.27.0", features=["macros", "rt", "rt-multi-thread","net","sync"]}
+toml = "0.7.3"
