@@ -1,4 +1,4 @@
-# rust-rcon
+# minecraft-rust-rcon
 A RCON client written in rust (supposed to be built once run everywhere and doesn't need to be configured just one click run!)
 
 ## Setup
